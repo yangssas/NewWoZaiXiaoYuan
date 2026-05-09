@@ -3,7 +3,7 @@ name: 我在校园打卡
 on:
   workflow_dispatch:
   schedule:
-        - cron: '38 22 * * *'
+        - cron: '00 22 * * *'
 
 jobs:
   User01:
