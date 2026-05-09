@@ -3,7 +3,7 @@ name: 我在校园打卡
 on:
   workflow_dispatch:
   schedule:
-        - cron: '10 14 * * *'   # UTC 14:10 = 北京时间 22:10
+        - cron: '38 22 * * *'
 
 jobs:
   User01:
